@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contenido">
+    <form id="form" action="/">
+      <h1>Crear cuenta</h1>
+      <div class="input-control">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <div class="error"></div>
+      </div>
+      &nbsp;
+      <div class="input-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <div class="error"></div>
+      </div>
+        &nbsp;
+      <div class="input-control">
+        <label for="pass1">Clave</label>
+        <input type="password" id="pass1" name="pass1" minlenght="8">
+          <div class="error"> </div>
+      </div>
+      &nbsp;
+      <div class="input-control">
+        <label for="pass2">Confirme su clave</label>
+        <input type="password" id="pass2" name="pass2" minlenght="8" onekeyup="verificarPassword()">
+        <div class="error"> </div>
+      </div>
+      &nbsp;
+      <button type="submit">ENVIAR</button>
+    </form>
+  </div>
+ </body>        
+</html>
