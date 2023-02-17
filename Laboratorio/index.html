@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario cuenta</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+	<!--no pude encontrar cómo vincular las imagenes de la carpeta, así que opté por otra opción -->
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Crear cuenta</h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Nombre</label>
+			<input type="text" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Clave</label>
+			<input type="password" id="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Confirme su clave</label>
+			<input type="password" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<button>ENVIAR</button>
+	</form>
+</div>
+
+  <script  src="./index.js"></script>
+
+</body>
+</html>
